@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Weather Information</h1>
+    {% if weather_data %}
+        <p>City: {{ weather_data.city_name }}</p>
+        <p>Country: {{ weather_data.country }}</p>
+        <p>Weather: {{ weather_data.weather }}</p>
+        <p>Temperature: {{ weather_data.temp_celsius }}°C</p>
+        <p>Feels Like: {{ weather_data.feel_like }}°C</p>
+        <p>Humidity: {{ weather_data.humidity }}%</p>
+        <p>Wind Speed: {{ weather_data.wind_speed }} m/s</p>
+        <p>Date and Time: {{ weather_data.datetime }}</p>
+    {% else %}
+        <p>No weather data available.</p>
+    {% endif %}
+</body>
+</html>

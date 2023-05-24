@@ -4,10 +4,15 @@
 </head>
 <body>
     <h1>Weather Information</h1>
+    <form method="GET" action="{% url 'index' %}">
+        <input type="text" name="city" placeholder="Enter city name">
+        <button type="submit">Get Weather</button>
+    </form>
     {% if weather_data %}
         <p>City: {{ weather_data.city_name }}</p>
         <p>Country: {{ weather_data.country }}</p>
         <p>Weather: {{ weather_data.weather }}</p>
+        <img src="{{ weather_data.icon }}" alt="Weather Icon">
         <p>Temperature: {{ weather_data.temp_celsius }}°C</p>
         <p>Feels Like: {{ weather_data.feel_like }}°C</p>
         <p>Humidity: {{ weather_data.humidity }}%</p>

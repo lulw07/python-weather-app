@@ -1,14 +1,16 @@
-# Django Website for Weather Forecast
+# Django Website für Wettervorhersage
 
-## Description
+![](../Weather-App-Django.png)
 
-This is a Django website that uses the OpenWeatherMap API to display the weather forecast for a given city. The website also displays the current date and time for the given city.
+## Beschreibung
 
-Hint: The code is the same as the code in the `main.py`.
+Dies ist eine Django-Website, die die OpenWeatherMap API verwendet, um die Wettervorhersage für eine bestimmte Stadt anzuzeigen. Die Website zeigt auch das aktuelle Datum und die Uhrzeit für die angegebene Stadt an.
 
-## Testing locally
+Hinweis: Der Code ist derselbe wie der Code in der `weather.py`.
 
-1. Clone the repository
-2. Install the dependencies
-3. Add your API key to the into the `weather/views.py` file
-4. Run the `manage.py` file with `python manage.py runserver`
+## Lokal testen
+
+1. Klone das Repository
+2. Installiere die Dependencies
+3. Fügen Sie Ihren API-Schlüssel in die Datei `weather/views.py` ein
+4. Führen Sie die Datei `manage.py` mit `python manage.py runserver` aus

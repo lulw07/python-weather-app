@@ -1,31 +1,37 @@
-# Weather App
+# Wetter-Apps
 
-Simple weather app that uses the [OpenWeatherMap API](https://openweathermap.org/api) to get the weather for a given city.
 
-## Description
 
-This app was created as a way to learn how to use the [OpenWeatherMap API](https://openweathermap.org/api) and to practice making API calls with Python. The app uses the [requests](https://requests.readthedocs.io/en/master/) library to make the API calls and the [Tkinter](https://tkdocs.com/) library to create the GUI.
+Dieses Repository enthält zwei Wetter-Apps, die die [OpenWeatherMap API](https://openweathermap.org/api) verwenden, um das Wetter für eine bestimmte Stadt zu ermitteln.
 
-## Getting Started
 
-### API Key
 
-Visit the [OpenWeatherMap API](https://openweathermap.org/api) website to get an API key. Once you have an API key, create a file called `api_key.txt` in the root directory of the project and add the following line to the file:
+## Beschreibung
+
+
+
+Die Anwendungen wurden erstellt, um den Umgang mit der [OpenWeatherMap API](https://openweathermap.org/api) zu erlernen und um API-Aufrufe mit Python zu üben. Die Anwendungen verwenden die [requests](https://requests.readthedocs.io/en/master/)-Bibliothek, um die API-Aufrufe zu tätigen, und die [Tkinter](https://tkdocs.com/)-Bibliothek, um die GUI zu erstellen. Die Django-Website verwendet auch das [Django](https://www.djangoproject.com/) Framework.
+
+
+
+## Erste Schritte
+
+
+
+### API-Schlüssel
+
+
+
+Um die Anwendungen auszuführen, benötigen Sie einen API-Schlüssel von der [OpenWeatherMap API](https://openweathermap.org/api) Website. Dieser ist 100% kostenlos. Melden Sie sich einfach an und Sie erhalten Ihren Schlüssel per E-Mail. Sobald Sie einen API-Schlüssel haben, erstellen Sie eine Datei namens `api_key.txt` im Hauptverzeichnis des Projekts und fügen Sie die folgende Zeile in die Datei ein:
+
+
 
 ```python
-YOUR_KEY_HERE
+API_KEY
 ```
 
-### Dependencies
+#### Author
 
-* Python 3.8.5
-* requests 2.25.1
-* Tkinter 8.6
+Lukas Glomb, WPF PYT-1, Klasse FI-C-12
 
-### Installing
-
-* Clone the repository
-* Install the dependencies
-* Add your API key to the `api_key.txt` file
-* Run the `main.py` or `website.py` file
-* Enjoy!
+Hinweis: Es befindet sich noch in der Entwicklung.

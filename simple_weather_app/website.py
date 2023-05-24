@@ -3,7 +3,7 @@ import datetime as dt
 import requests
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-API_KEY = open("api-key").read()
+API_KEY = "295ebf1613d08e1db3962513565fa710"
 
 def get_weather():
     city = city_entry.get()

@@ -2,13 +2,14 @@ import datetime as dt
 import requests
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-API_KEY = open("api-key").read()
+API_KEY = "295ebf1613d08e1db3962513565fa710"
 CITY = "Berlin"
 
 url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY + "&units=metric"
 
 response = requests.get(url).json()
 
+icon = response["weather"][0]["icon"]
 city = response["name"]
 country = response["sys"]["country"]
 weather = response["weather"][0]["description"]

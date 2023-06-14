@@ -1,6 +1,6 @@
 FROM python:3.9
 
-FROM gorialis/discord.py
+FROM gorialis/manage.py
 
 
 
